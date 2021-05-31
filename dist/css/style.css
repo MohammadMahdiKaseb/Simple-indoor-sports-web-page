@@ -1,0 +1,188 @@
+
+body{
+
+    margin: 0;
+    padding:0 ;
+}
+
+.sec1{
+    position: relative;
+    width: 100%;
+    height: 102.8vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+
+}
+
+
+.video1{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    pointer-events: none; 
+    height: 90%;
+
+
+    /* position:absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    
+    */
+}
+
+
+.hedtext{
+    text-align: left !important;
+    color: whitesmoke !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    font-size: larger !important;
+    z-index: 1;
+    margin-top: 11vw;
+    padding-top: 6px;
+    padding-left: 4vw;
+    
+
+}
+
+
+@font-face {
+    font-family: tix1;
+    src: url(../../font/Monoton-Regular.ttf);
+}
+
+@font-face {
+    font-family: tix2;
+    src: url(../../font/Raleway-Light.ttf);
+}
+
+
+
+.ht{
+    
+    color: white;
+    z-index: 1;
+
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #b2b2f6;
+    border-radius: 3px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.p-head{
+    font-family: tix1;
+    font-size: 45px
+}
+
+
+.img-bo{
+
+    padding-left: 50px;
+    margin-left: 20px;
+    border-radius: 5px;
+
+}
+
+
+
+.inp1{
+    width: 25px;
+    height: 24px;
+
+}
+
+.of{
+
+    text-align: end;
+    
+
+}
+
+
+
+.btn-up-footer{
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+.footer{
+
+    background-color: rgb(205, 205, 212);
+    color: whitesmoke;
+    height: 180px;
+    margin-top: 30px;
+
+
+
+}
+
+
+.left-text{
+    float: left;
+    margin-left: 50px;
+    width: 40%;
+    padding-top: 30px;
+    font-family: tix2;
+}
+
+.h3h {
+    font-family: tix2;
+    color:teal;
+}
+
+
+
+.lorem1{
+
+    color: rgb(0, 0, 0);
+}
+
+.text-right{
+    float: right;
+    width: 40%;
+    font-family: tix2;
+    color:teal;
+    padding-top: 30px;
+    
+
+}
+
+
+.a-img{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    padding-left: 25px;
+    margin-left: 20px;
+}
+
+
+.ttss3{
+
+    font-size: xx-large;
+
+}
+
+
+.tth3{
+    margin-top: 15px;
+}
